@@ -7,6 +7,6 @@
         msg: Hello Ansible World
     - name: copy file to destination
       copy:
-        src: /tmp/index.html
-        dest: /tmp/test/ansible-practice
+        src: /tmp/test/index.html
+        dest: /tmp/test/ansible-practice1
     
